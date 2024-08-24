@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color: #0b4462;
+   color: #e0e9e9;
+   font-family: sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-size: 2.00rem;
+    background-color: #56877d;
+    padding: 2.50rem;
+    border: solid 1px #000000;
+}
+
+.titulo {
+    font-weight: 700;
+    color: #24c0eb;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.citacao {
+    font-style: italic;
+    color: #24c0eb;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.conteiner-introducao {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 13dvh;
+    gap: 8px;
+}
+
+.subtitulo {
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family:sans-serif;
+    margin-bottom: 2rem;
+    background-color: #56877d;
+    border-radius: 86px 4px 86px 4px;
+    border: double 6px #24c0eb;
+    padding: 2rem;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+strong {
+    color: black;
+}
+
+.paragrafo-introducao {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.conteiner-principal {
+    display: grid;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.lista-conteudo {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #24c0eb;
+    padding: 2rem;
+    border: solid 2px #000000;
+    border-radius: 1.50rem;
+}
+
+.dados-titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #56877d;
+    padding: 1rem;
+    border-radius: 2rem 0 2rem 0;
+    margin-bottom: 3rem;
+    color: #24c0eb;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.lista-dados-titulo {
+    border-bottom: solid 1px #000000;
+    list-style-type: none;
+    text-align: center;
+    font-size: 2.30rem;
+    font-weight: 700;
+    margin-bottom: 2.25rem;
+    font-style: italic;
+}
+
+.lista-dados {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.80rem;
+    font-weight: 500;
+}
+
+.rodape {
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.rodape-paragrafo {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 12px;
+    flex-flow: row wrap;
+}
