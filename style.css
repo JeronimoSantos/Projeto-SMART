@@ -53,6 +53,13 @@ body {
     border: double 6px #24c0eb;
     padding: 2rem;
     text-shadow: 1px 1px 1px #000000;
+    transition: transform 200ms ease-in-out;
+}
+
+.subtitulo:hover {
+    background-color: #3e4b51;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 strong {
@@ -94,6 +101,14 @@ strong {
     margin-bottom: 3rem;
     color: #24c0eb;
     text-shadow: 2px 2px 2px #000000;
+    transition: transform 200ms ease-in-out;
+}
+
+.dados-titulo:hover {
+    background-color: #3e4b51;
+    cursor: pointer;
+    transform: scale(1.05);
+
 }
 
 .lista-dados-titulo {
@@ -131,4 +146,5 @@ strong {
     align-items:center;
     gap: 12px;
     flex-flow: row wrap;
+    margin-top: 1rem;
 }
