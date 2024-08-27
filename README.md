@@ -3,7 +3,7 @@
 ## Objetivo do Projeto
 
 ### Práticar meus conhecimentos de HTML, HTML Semântico, CSS e CSS Responsivo. Também criar meus objetivos e metas utilizando o Método SMART.
-### Na escolha de onde hospedar o site, escolhi a versel, pois é o mais estou usando atualmente.
+### Na escolha de onde hospedar o site, escolhi a versel, pois é o que mais estou usando atualmente.
  
 ## Tecnologias Utilizadas 
 - HTML
